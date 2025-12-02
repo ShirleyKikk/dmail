@@ -1,0 +1,33 @@
+{
+  "name": "dmail",
+  "version": "1.0.0",
+  "description": "Lightweight encryption library for protecting sensitive data in blockchain applications, APIs, and data processing workflows",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node examples/test-encryption.js",
+    "example:basic": "node examples/basic-usage.js",
+    "example:integration": "node examples/integration-guide.js",
+    "example:patterns": "node examples/advanced-encryption-patterns.js",
+    "example:wallet": "node examples/wallet-protection-examples.js",
+    "example:api": "node examples/api-security-examples.js",
+    "example:workflows": "node examples/production-workflows.js"
+  },
+  "keywords": [
+    "encryption",
+    "aes",
+    "crypto",
+    "blockchain",
+    "wallet",
+    "security",
+    "data-protection",
+    "api-security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aes-js": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
